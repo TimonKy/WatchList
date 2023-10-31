@@ -1,9 +1,7 @@
-
-
 <nav>
   <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
+      <li><a href="./about.svelte">About</a></li>
       <li><a href="/contact">Watchlist</a></li>
   </ul>
 </nav>
@@ -12,7 +10,7 @@
 
 <style>
   nav {
-      background-color: #333;
+      background-color: #5b5a5a;
       color: white;
       padding: 10px;
   }
@@ -32,7 +30,7 @@
       display: block;
       color: white;
       text-align: center;
-      padding: 14px 16px;
+      padding: 6px 16px;
       text-decoration: none;
   }
 </style>
